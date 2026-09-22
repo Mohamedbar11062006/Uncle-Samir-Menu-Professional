@@ -1,331 +1,255 @@
-// ===============================
-// UNCLE SAMIR MENU DATA
-// ===============================
-
 const menu = [
-
-    // ===============================
-    // HA10WAWSHI
-    // ===============================
-
     {
         id: 1,
-        name: "Hawawshi",
-        price: 195,
+        name: "Hawawshi Plain (حواوشي)",
+        price: 175,
         category: "hawawshi",
-        description: "Meshaltet pie stuffed with Hawawshi meat and special oriental spices.",
+        description: "Fresh Meshaltet pie stuffed with Hawawshi meat and oriental spices.",
         image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600"
     },
-
     {
         id: 2,
-        name: "Hawawshi Sausage Kiri Cheese",
-        price: 235,
+        name: "Hawawshi Sausage Kiri (حواوشي سجق كيري)",
+        price: 215,
         category: "hawawshi",
-        description: "Hawawshi meat, sausage and Kiri cheese.",
+        description: "Hawawshi meat combined with baladi sausage and creamy Kiri cheese.",
         image: "https://images.unsplash.com/photo-1578926288207-a90a5366759d?w=600"
     },
-
     {
         id: 3,
-        name: "Hawawshi Crispy Fried Chicken Ranch",
-        price: 250,
+        name: "Hawawshi Crispy Ranch (حواوشي كرسبي رانتش)",
+        price: 225,
         category: "hawawshi",
-        description: "Hawawshi meat, crispy chicken and ranch sauce.",
+        description: "Hawawshi meat with crunchy crispy chicken and ranch sauce.",
         image: "https://images.unsplash.com/photo-1606756790138-261d2d21cd75?w=600"
     },
-
     {
         id: 4,
-        name: "Hawawshi Mix Cheese",
-        price: 250,
+        name: "Hawawshi Mix Cheese (حواوشي جبنه)",
+        price: 225,
         category: "hawawshi",
-        description: "Hawawshi meat with mozzarella cheese.",
+        description: "Hawawshi meat loaded with mozzarella and mixed cheeses.",
         image: "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=600"
     },
-
-
-    // ===============================
-    // LARGE SPECIAL PIES
-    // ===============================
-
     {
         id: 5,
-        name: "Large Mashenkah",
-        price: 440,
-        category: "special",
-        description: "Mixed beef, sausage, minced beef, pastrami, mixed cheese and special creamy cheese.",
-        image: "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=600"
+        name: "Hawawshi Pastrami Kiri (حواوشي بسطرمه كيري)",
+        price: 230,
+        category: "hawawshi",
+        description: "Hawawshi meat layered with rich pastrami and Kiri cheese.",
+        image: "https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?w=600"
     },
-
     {
         id: 6,
-        name: "Large Special Seafood Am Samir",
-        price: 575,
-        category: "special",
-        description: "Mixed seafood with cream cheese sauce, ranch sauce and extra mozzarella.",
-        image: "https://images.unsplash.com/photo-1547592180-85f173990554?w=600"
+        name: "Feteer Smash Burger (فطير سماش برجر)",
+        price: 185,
+        category: "burger",
+        description: "Smash beef patties baked inside layered crispy feteer dough.",
+        image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600"
     },
-
     {
         id: 7,
-        name: "Large Pastrami Kiri Cheese",
-        price: 410,
-        category: "special",
-        description: "Pastrami, mozzarella, Kiri cheese and special creamy cheese.",
-        image: "https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?w=600"
-    },
-
-    {
-        id: 8,
-        name: "Mix Chicken Ranch",
-        price: 410,
-        category: "special",
-        description: "Grilled chicken, fried chicken, mozzarella and ranch sauce.",
-        image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600"
-    },
-
-    {
-        id: 9,
-        name: "Special Sausage Kiri Cheese",
-        price: 410,
-        category: "special",
-        description: "Sausage, mozzarella, Kiri cheese and special creamy cheese.",
-        image: "https://images.unsplash.com/photo-1578926288207-a90a5366759d?w=600"
-    },
-
-    {
-        id: 10,
-        name: "Half Sausage Kiri & Half Chicken Ranch",
-        price: 440,
-        category: "special",
-        description: "Half sausage Kiri cheese and half chicken ranch.",
-        image: "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=600"
-    },
-
-    {
-        id: 11,
-        name: "Half Sausage & Half Pastrami",
-        price: 420,
-        category: "special",
-        description: "Half sausage and half pastrami with mozzarella and creamy cheese.",
-        image: "https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?w=600"
-    },
-
-
-    // ===============================
-    // SWEET PIES
-    // ===============================
-
-    {
-        id: 12,
-        name: "Boughasha Pie",
-        price: 120,
-        category: "sweet",
-        description: "Milk, powdered sugar and fresh ghee.",
-        image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600"
-    },
-
-    {
-        id: 13,
-        name: "Samara Dates Pie",
-        price: 220,
-        category: "sweet",
-        description: "Dates, cream, custard and powdered sugar.",
-        image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600"
-    },
-
-    {
-        id: 14,
-        name: "Basbousa Am Samir",
-        price: 220,
-        category: "sweet",
-        description: "Basbousa, custard, ghee, qeshta and honey.",
-        image: "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=600"
-    },
-
-    {
-        id: 15,
-        name: "Special Custard Am Samir",
-        price: 175,
-        category: "sweet",
-        description: "Custard, milk, fresh ghee, secret cream and powdered sugar.",
-        image: "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600"
-    },
-
-    {
-        id: 16,
-        name: "Trend Dubai Pistachio Pie",
-        price: 275,
-        category: "sweet",
-        description: "Kunafa, pistachio, Nutella and white chocolate.",
-        image: "https://images.unsplash.com/photo-1607920592519-6e4e3b5f5f3a?w=600"
-    },
-
-    {
-        id: 17,
-        name: "Custard Pie",
-        price: 160,
-        category: "sweet",
-        description: "Custard, milk, fresh ghee and powdered sugar.",
-        image: "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600"
-    },
-
-    {
-        id: 18,
-        name: "Qeshta With Honey Pie",
-        price: 200,
-        category: "sweet",
-        description: "Baladi qeshta, cream, custard, ghee and honey.",
-        image: "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=600"
-    },
-
-    {
-        id: 19,
-        name: "Basbousa With Qeshta Pie",
-        price: 200,
-        category: "sweet",
-        description: "Custard, baladi ghee, basbousa, qeshta and honey.",
-        image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600"
-    },
-
-    {
-        id: 20,
-        name: "Nutella Hazelnut Pie",
-        price: 210,
-        category: "sweet",
-        description: "Custard, baladi ghee, Nutella and hazelnut.",
-        image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600"
-    },
-
-    {
-        id: 21,
-        name: "Half Nutella & White Chocolate Pie",
-        price: 220,
-        category: "sweet",
-        description: "White chocolate and Nutella with custard and ghee.",
-        image: "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=600"
-    },
-
-    {
-        id: 22,
-        name: "Half Nutella & Lotus Pie",
-        price: 220,
-        category: "sweet",
-        description: "Nutella, Lotus and crushed Lotus biscuits.",
-        image: "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600"
-    },
-
-    {
-        id: 23,
-        name: "Half Nutella & Pistachio Pie",
-        price: 275,
-        category: "sweet",
-        description: "Nutella and pistachio with crushed pistachios.",
-        image: "https://images.unsplash.com/photo-1607920592519-6e4e3b5f5f3a?w=600"
-    },
-
-
-    // ===============================
-    // SANDWICHES
-    // ===============================
-
-    {
-        id: 24,
-        name: "Smashed Burger Sandwich",
-        price: 200,
-        category: "sandwich",
-        description: "Two beef patties, Kiri cheese, lettuce, caramelized onion and American cheese.",
-        image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600"
-    },
-
-    {
-        id: 25,
-        name: "Sakalans Sandwich",
-        price: 120,
-        category: "sandwich",
-        description: "Meshaltet sandwich with ghee, honey, qeshta and halva.",
-        image: "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=600"
-    },
-
-    {
-        id: 26,
-        name: "Smashed Burger Spicy Tiger Sandwich",
-        price: 260,
-        category: "sandwich",
-        description: "Two beef patties, minced beef, Tiger sauce and American cheese.",
-        image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600"
-    },
-
-    {
-        id: 27,
-        name: "Smashed Pastrami Kiri Cheese Sandwich",
-        price: 260,
-        category: "sandwich",
-        description: "Pastrami, two beef patties, Kiri cheese, American cheese and lettuce.",
+        name: "Smash Pastrami Kiri (سماش بسطرمه كيري)",
+        price: 240,
+        category: "burger",
+        description: "Smash beef patty with pastrami, mozzarella, and creamy Kiri cheese.",
         image: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600"
     },
-
-
-    // ===============================
-    // OFFERS
-    // ===============================
-
+    {
+        id: 8,
+        name: "Smash Spicy Tiger (سماش سبايسي تايجر)",
+        price: 240,
+        category: "burger",
+        description: "Smash beef patties topped with minced beef and spicy Tiger sauce.",
+        image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600"
+    },
+    {
+        id: 9,
+        name: "Luqmat Sakalans (لقمة سكلانس)",
+        price: 99,
+        category: "burger",
+        description: "Sweet bite-sized meshaltet sandwich with ghee, honey, qeshta, and halva.",
+        image: "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=600"
+    },
+    {
+        id: 10,
+        name: "Special Sausage Kiri (سجق كيري عم سمير)",
+        price: 375,
+        category: "special",
+        description: "Baladi sausage, signature cream sauce, and rich mozzarella.",
+        image: "https://images.unsplash.com/photo-1578926288207-a90a5366759d?w=600"
+    },
+    {
+        id: 11,
+        name: "Special Pastrami Kiri (بسطرمه كيري عم سمير)",
+        price: 375,
+        category: "special",
+        description: "Savoury pastrami blended with Kiri cream sauce and extra cheese.",
+        image: "https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?w=600"
+    },
+    {
+        id: 12,
+        name: "Special Mix Chicken Ranch (ميكس فراخ رانتش)",
+        price: 375,
+        category: "special",
+        description: "Grilled chicken, crispy chicken, and creamy ranch sauce.",
+        image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600"
+    },
+    {
+        id: 13,
+        name: "El Moshakalji (المشكلجي)",
+        price: 399,
+        category: "special",
+        description: "Mixed beef, sausage, minced beef, and pastrami with extra cheese.",
+        image: "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=600"
+    },
+    {
+        id: 14,
+        name: "Sea Ranch Am Samir (سي رانتش)",
+        price: 525,
+        category: "special",
+        description: "Mixed seafood loaded with cream sauce, ranch, and mozzarella.",
+        image: "https://images.unsplash.com/photo-1547592180-85f173990554?w=600"
+    },
+    {
+        id: 15,
+        name: "Half Sausage & Half Pastrami (نص سجق ونص بسطرمه)",
+        price: 375,
+        category: "special",
+        description: "Half sausage and half pastrami topped with creamy cheese.",
+        image: "https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?w=600"
+    },
+    {
+        id: 16,
+        name: "Half Sausage Kiri & Chicken Ranch (سجق كيري وتشيكن رانتش)",
+        price: 399,
+        category: "special",
+        description: "Half sausage Kiri and half chicken ranch special combination.",
+        image: "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=600"
+    },
+    {
+        id: 17,
+        name: "Large Meshaltet Tray (صينية مشلتتة كبيرة)",
+        price: 275,
+        category: "meshaltet",
+        description: "Large plain baladi ghee Meshaltet pie served with 5 side dips.",
+        image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600"
+    },
+    {
+        id: 18,
+        name: "Fallahey Meshaltet Medium (مشلتتة فلاحي وسط)",
+        price: 150,
+        category: "meshaltet",
+        description: "Medium traditional plain Egyptian Meshaltet baked in baladi ghee.",
+        image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600"
+    },
+    {
+        id: 19,
+        name: "Mix Cheese Kiri Meshaltet (ميكس جبن كيري)",
+        price: 230,
+        category: "meshaltet",
+        description: "Stuffed savory meshaltet with mozzarella, Kiri, and mixed cheese.",
+        image: "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=600"
+    },
+    {
+        id: 20,
+        name: "Sausage Kiri Meshaltet (سجق كيري)",
+        price: 260,
+        category: "meshaltet",
+        description: "Stuffed meshaltet pie with sausage, Kiri, and veggies.",
+        image: "https://images.unsplash.com/photo-1578926288207-a90a5366759d?w=600"
+    },
+    {
+        id: 21,
+        name: "Pastrami Kiri Meshaltet (بسطرمة كيري)",
+        price: 280,
+        category: "meshaltet",
+        description: "Rich stuffed meshaltet with pastrami, mozzarella, and peppers.",
+        image: "https://images.unsplash.com/photo-1572449043416-55f4685c9bb7?w=600"
+    },
+    {
+        id: 22,
+        name: "Boughasha (بغاشة)",
+        price: 100,
+        category: "sweet",
+        description: "Classic sweet feteer with fresh milk, powdered sugar, and baladi ghee.",
+        image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600"
+    },
+    {
+        id: 23,
+        name: "Boughasha Nutella (بغاشة نوتيلا)",
+        price: 160,
+        category: "sweet",
+        description: "Crispy boughasha drenched in rich Nutella chocolate spread.",
+        image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600"
+    },
+    {
+        id: 24,
+        name: "Custard Pie (كاسترد)",
+        price: 145,
+        category: "sweet",
+        description: "Sweet pie stuffed with silky custard and dusted with sugar.",
+        image: "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600"
+    },
+    {
+        id: 25,
+        name: "Samara Dates Pie (سمارة)",
+        price: 175,
+        category: "sweet",
+        description: "Dates, cream, custard, and powdered sugar pie.",
+        image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600"
+    },
+    {
+        id: 26,
+        name: "Balah Bel Qeshta (بلح بالقشطة)",
+        price: 200,
+        category: "sweet",
+        description: "Sweet date pie loaded with rich Egyptian baladi qeshta.",
+        image: "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=600"
+    },
+    {
+        id: 27,
+        name: "Basbousa Am Samir (بسبوسة عم سمير)",
+        price: 200,
+        category: "sweet",
+        description: "Basbousa, custard, ghee, qeshta, and honey baked inside feteer.",
+        image: "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=600"
+    },
     {
         id: 28,
-        name: "Old Is Gold Box",
-        price: 595,
-        category: "offers",
-        description: "Sausage cheese pie + Mix cheese Kiri pie + Boughasha + 3 Maxi Cola.",
-        image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600"
+        name: "Trend Dubai Pistachio (تريند دبي فستق)",
+        price: 250,
+        category: "sweet",
+        description: "Kunafa, pistachio cream, Nutella, and white chocolate.",
+        image: "https://images.unsplash.com/photo-1607920592519-6e4e3b5f5f3a?w=600"
     },
-
     {
         id: 29,
-        name: "Hot Dog Box + Maxi Cola",
-        price: 250,
-        category: "offers",
-        description: "Half hot dog pie + half Nutella-Lotus pie + Maxi Cola.",
-        image: "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?w=600"
+        name: "Half Nutella & Lotus (نوتيلا لوتس نص ونص)",
+        price: 190,
+        category: "sweet",
+        description: "Half Nutella chocolate and half Lotus cookie butter spread.",
+        image: "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600"
     },
-
     {
         id: 30,
-        name: "Minced Beef + Maxi Cola",
+        name: "Half Nutella & Pistachio (نوتيلا فستق نص ونص)",
         price: 250,
-        category: "offers",
-        description: "Half minced beef pie + half Nutella-Lotus pie + Maxi Cola.",
-        image: "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=600"
-    },
-
-    {
-        id: 31,
-        name: "Mix Cheese Box + Maxi Cola",
-        price: 270,
-        category: "offers",
-        description: "Half mix cheese pie + half Nutella-Lotus pie + Maxi Cola.",
-        image: "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=600"
-    },
-
-    {
-        id: 32,
-        name: "Sausage Box + Maxi Cola",
-        price: 290,
-        category: "offers",
-        description: "Half sausage pie + half Nutella-Lotus pie + Maxi Cola.",
-        image: "https://images.unsplash.com/photo-1578926288207-a90a5366759d?w=600"
+        category: "sweet",
+        description: "Half Nutella and half pistachio paste topped with crushed pistachios.",
+        image: "https://images.unsplash.com/photo-1607920592519-6e4e3b5f5f3a?w=600"
     }
 ];
 
-const STORAGE_KEY = 'uncle-samir-cart-v2';
+const STORAGE_KEY = 'uncle-samir-cart-v3';
 const WHATSAPP_NUMBER = '201200002942';
 
 const categoryLabels = {
   hawawshi: 'Hawawshi',
+  burger: 'Smash Burger',
   special: 'Special Pie',
-  sweet: 'Sweet Pie',
-  sandwich: 'Sandwich',
-  offers: 'Offer'
+  meshaltet: 'Meshaltet',
+  sweet: 'Sweet Pie'
 };
 
 const state = {
@@ -573,7 +497,7 @@ function buildWhatsAppOrder() {
   }).filter(Boolean);
 
   const message = [
-    '🧾 *New Order - Uncle Samir*',
+    '🧾 *New Order - Uncle Samir Tanta*',
     '',
     ...lines,
     '',
@@ -662,7 +586,7 @@ window.addEventListener('scroll', () => {
 }, { passive: true });
 
 window.addEventListener('resize', () => {
-  if (window.innerWidth > 1050) closeMobileNav();
+  if (window.innerWidth > 900) closeMobileNav();
 });
 
 document.addEventListener('keydown', (event) => {
@@ -670,24 +594,8 @@ document.addEventListener('keydown', (event) => {
     if (cartDrawer.classList.contains('open')) closeCart();
     else closeMobileNav();
   }
-
-  if (event.key === 'Tab' && cartDrawer.classList.contains('open')) {
-    const focusable = cartDrawer.querySelectorAll('button:not([disabled]), a[href], input:not([disabled])');
-    if (!focusable.length) return;
-    const first = focusable[0];
-    const last = focusable[focusable.length - 1];
-
-    if (event.shiftKey && document.activeElement === first) {
-      event.preventDefault();
-      last.focus();
-    } else if (!event.shiftKey && document.activeElement === last) {
-      event.preventDefault();
-      first.focus();
-    }
-  }
 });
 
 document.getElementById('year').textContent = new Date().getFullYear();
 setCategory('all');
 renderCart();
-siteHeader.classList.toggle('scrolled', window.scrollY > 20);
